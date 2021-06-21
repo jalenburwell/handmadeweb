@@ -7,12 +7,10 @@ p{
   /*border: 5px dashed blue;*/
   padding: 10px;
 }
-
 img{
   max-width: 90%;
   /*max-width: 800px;*/
 }
-
 h1{
   text-align: center;
   font-size:50px;
@@ -26,19 +24,21 @@ h2{
 a{
   color: black;
 }
-
 ul{
+  text-align: center;
+  list-style: none;
+}
+
+.columns{
   column-count: 5;
-  column-gap: 5px;
+  /*column-gap: 5px;*/
 }
 
 li{
-  font-size:10px
-  padding-right:10px;
+  font-size:15px;
   padding-top:10px;
-  padding-bottom:10px;
+  padding-bottom:15px;
 }
-
 a:hover {
     background-color: orange;
     color: white;
