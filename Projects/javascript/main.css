@@ -1,0 +1,40 @@
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+}
+
+img{
+  max-width: 100%;
+}
+
+button{
+  background:rgb(120, 103, 207);
+  font-size:1.2rem;
+}
+
+button:hover{
+  background:rgb(42, 196, 151);
+}
+
+button:active {
+  background: rgb(224, 115, 26);
+}
+
+.box-styles{
+  background:lightblue;
+  height:100vh;
+  width:400px;
+  position:fixed;
+  top:0;
+  right:-400px;
+  padding:1.2rem;
+  font-size:1.2rem;
+  transition:right .4s ease;
+}
+
+.active {
+  right:0;
+}
