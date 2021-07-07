@@ -1,35 +1,47 @@
 body{
   background-color: lightyellow;
 }
+
 p{
   text-align: center;
-  font-size:25px;
-  /*border: 5px dashed blue;*/
-  padding: 10px;
+  font-size:20px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 95px;
+  font-family: metropolis-light;
+  font-weight: 100;
 }
+
 img{
   max-width: 90%;
-  /* max-width: 800px; */
 }
+
 h1{
   text-align: center;
   font-size:50px;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   padding-bottom: 10px;
+  font-family: metropolis;
+  font-weight: 500;
+  font-weight: bold;
 }
 
-h2{
+/* h2{
   text-align: center;
   font-size:35px;
   padding-top:100px;
-  /* font-family: sans-serif; */
-}
+  font-family: metropolis-light;
+  font-weight: 100;
+} */
+
 a{
   color: black;
 }
+
 ul{
   text-align: center;
   list-style: none;
+  padding:0;
 }
 
 .columns{
@@ -41,8 +53,11 @@ ul{
 
 li{
   font-size:15px;
-  padding-top:10px;
+  padding-top:15px;
   padding-bottom:15px;
+  font-family: metropolis-light;
+  font-weight: 100;
+  line-height: 1.25;
 }
 a:hover {
     background-color: orange;
@@ -124,7 +139,7 @@ button:active {
 .fixed{
   background:lightyellow;
   width: 100%;
-  height: 120px;
+  height: 110px;
   position: fixed;
   top:0;
   left:0;
@@ -133,14 +148,45 @@ button:active {
   justify-content: center;
 }
 
-@media screen and (max-width:1070px) {
+@media screen and (max-width:1193px) {
   .columns {
     column-count:2;
   }
 }
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:791px) {
   .columns {
     column-count:1;
   }
+}
+
+.homepage{
+  font-size: 20px;
+  padding: 20px;
+  line-height: normal;
+}
+
+.titlename{
+  padding-top: 175px;
+  margin-bottom: 0;
+}
+
+@font-face {
+  font-family: 'metropolis';
+  src: (fonts/Metropolis-Black.otf);
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'metropolis-light';
+  src: (fonts/Metropolis-Light.otf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+.backbutton{
+  font-family: metropolis-light;
+  font-weight:100;
+  font-size: 15px;
 }
