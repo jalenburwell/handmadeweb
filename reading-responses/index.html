@@ -5,10 +5,29 @@
     <link rel="stylesheet" href="../main.css">
   </head>
   <body>
-    <h1>Reading Responses</h1>
-    <a href="../index.html">Back</a>
+    <div class="fixed">
+      <button onclick="toggle()"><h1>Reading Responses</h1></button>
+    </div>
 
-    <img src=""
-    <p>Lorem ipsum...</p>
+    <div id="box" class="box-styles">
+      <a href="../index.html" class="backbutton">Home</a>
+      <ul>
+        <li>Aura</li>
+        <li><a href="../Projects/final project/index.html" target="_blank">Final Project</a></li>
+        <li><a href="../Projects/flexbox/flexpractice.html">Flexbox</a></li>
+        <li><a href="../Projects/Introduction/introduction.html">Introduction</a></li>
+        <li><a href="index.html">Reading Responses</a></li>
+        <li>Screensaver</li>
+      </ul>
+    </div>
+
+    <script>
+      function toggle() {
+        var box = document.getElementById("box");
+        box.classList.toggle("active");
+      }
+    </script>
+
+    <img src="">
   </body>
 </html>

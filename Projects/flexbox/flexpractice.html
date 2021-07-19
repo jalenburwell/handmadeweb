@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>flexbox practice</title>
+  <link rel="stylesheet" href="main2.css">
+</head>
+
+<body>
+  <div class="fixed">
+    <button onclick="toggle()"><h1>Flexbox Exercise</h1></button>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="row-item"></div>
+      <div class="row-item"></div>
+      <div class="row-item"></div>
+    </div>
+    <div class="row row2">
+      <div class="center">
+        <div class="center-item"></div>
+      </div>
+      <div class="column">
+        <div class="column-item"></div>
+        <div class="column-item"></div>
+        <div class="column-item"></div>
+        <div class="column-item"></div>
+      </div>
+
+      <div id="box" class="box-styles">
+        <a href="../../index.html" class="backbutton">Home</a>
+        <ul>
+          <li>Aura</li>
+          <li><a href="../final project/index.html" target="_blank">Final Project</a></li>
+          <li><a href="../flexbox/flexpractice.html">Flexbox</a></li>
+          <li><a href="../Introduction/introduction.html">Introduction</a></li>
+          <li><a href="../../reading-responses/index.html">Reading Responses</a></li>
+          <li>Screensaver</li>
+        </ul>
+      </div>
+
+      <script>
+        function toggle() {
+          var box = document.getElementById("box");
+          box.classList.toggle("active");
+        }
+      </script>
+    </div>
+  </div>
+</body>
+</html>
