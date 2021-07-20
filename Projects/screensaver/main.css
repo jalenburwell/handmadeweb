@@ -1,0 +1,97 @@
+body{
+  margin:0;
+}
+
+.container2{
+  background: rgb(40, 26, 54);
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.box{
+  width: 100vw;
+  height: 20vh;
+  background: rgb(48, 13, 84);
+  z-index: 2;
+  align-self: center;
+  /* display:block;
+  position:absolute; */
+  transition: transform 2s ease, background 1s ease;
+}
+
+.box:hover{
+  background:rgb(255, 221, 78);
+  transform:scale(7);
+}
+
+.zoomer1{
+  background: rgb(162, 148, 233);
+  width:33vw;
+  height:12vh;
+  animation: zoom 3.5s infinite linear;
+}
+
+.zoomer2{
+  background: rgb(136, 62, 158);
+  width:150px;
+  height:4vh;
+  animation: zoom 1s infinite linear;
+}
+
+.zoomer3{
+  background: rgb(226, 124, 225);
+  width:25vw;
+  height:7vh;
+  animation: zoom 2.7s infinite linear;
+}
+
+.zoomer4{
+  background: rgb(84, 21, 134);
+  width:44vw;
+  height:23vh;
+  animation: zoom 5s infinite linear;
+}
+
+.zoomer5{
+  background: rgb(135, 80, 179);
+  width:250px;
+  height:16vh;
+  animation: zoom 0.5s infinite linear;
+}
+
+.zoomer6{
+  background: rgb(124, 71, 135);
+  width:250px;
+  height:16vh;
+  animation: zoom 2s infinite linear;
+}
+
+.zoomer7{
+  background: rgb(154, 142, 224);
+  width:250px;
+  height:9vh;
+  animation: zoom 4.3s infinite linear;
+}
+
+.zoomer8{
+  background: rgb(110, 44, 145);
+  width:250px;
+  height:13vh;
+  animation: zoom 0.85s infinite linear;
+}
+
+@keyframes zoom{
+  0%{
+    transform: translateX(-50vw);
+  }
+  45%{
+    background:rgba(82, 175, 200, 0);
+  }
+  55%{
+    background:rgba(82, 175, 200, 0);
+  }
+  100%{
+    transform: translateX(100vw);
+  }
+}
