@@ -2,7 +2,7 @@ body{
   margin:0;
 }
 
-.container2{
+.container{
   background: rgb(40, 26, 54);
   height:100vh;
   display: flex;
